@@ -25,3 +25,12 @@ python main.py
 # Retrieve from file
 python main.py /path/to/file.csv
 ```
+
+## Dataset
+This project includes a dataset with 7000+ movies with various information such as budget, revenue, cast, crew, etc.
+If you need a larger dataset you can run the script using brute force search or edit the script to start searching for
+movies where I left off.
+
+### Important note
+Although **there is no request rate limit** (more info [here](https://developers.themoviedb.org/3/getting-started/request-rate-limiting))
+be extremely cautious and don't over abuse it. I claim NO RESPONSIBILITY for what you might cause.
